@@ -1,5 +1,4 @@
 FROM golang:1.18.1-alpine3.15
-#FROM klstg-docker.slb-wartifactory-v.stg.rmn.local/rakuten/rflow/rflow-go:1.17 as builder
 
 RUN apk add --no-cache --update alpine-sdk
 
